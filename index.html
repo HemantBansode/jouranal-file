@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Web Development using Python Lab journal and practical PDF.">
+  <title>Web Development using Python Lab | Journal</title>
+  <style>
+    :root { --navy:#12233f; --blue:#2563eb; --pale:#eff6ff; --ink:#172033; --muted:#64748b; }
+    * { box-sizing:border-box; }
+    body { margin:0; font-family:Arial, Helvetica, sans-serif; color:var(--ink); background:#f5f7fb; line-height:1.6; }
+    header { background:linear-gradient(135deg,#12233f,#2456a6); color:white; padding:48px 20px 42px; }
+    .wrap { max-width:1100px; margin:auto; padding:0 20px; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.14em; font-size:.78rem; font-weight:700; opacity:.8; }
+    h1 { margin:10px 0; line-height:1.15; font-size:clamp(2rem,5vw,3.4rem); }
+    header p { max-width:700px; color:#e2eaff; margin-bottom:24px; }
+    .actions { display:flex; flex-wrap:wrap; gap:12px; }
+    .btn { display:inline-block; padding:11px 17px; border-radius:9px; text-decoration:none; font-weight:700; border:1px solid transparent; cursor:pointer; }
+    .primary { background:white; color:#17345e; }
+    .secondary { color:white; border-color:#b9ccf7; background:transparent; }
+    main { padding:30px 0 50px; }
+    .layout { display:grid; grid-template-columns: minmax(0, .85fr) minmax(0, 1.5fr); gap:22px; align-items:start; }
+    .card { background:white; border:1px solid #e2e8f0; border-radius:16px; padding:24px; box-shadow:0 8px 24px rgba(15,23,42,.045); }
+    h2 { margin:0 0 12px; font-size:1.35rem; }
+    .muted { color:var(--muted); }
+    .facts { display:grid; gap:0; margin-top:18px; }
+    .fact { padding:12px 0; border-bottom:1px solid #edf0f5; }
+    .fact:last-child { border-bottom:0; }
+    .fact strong { display:block; font-size:.83rem; color:var(--muted); margin-bottom:3px; }
+    .topics { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; margin-top:18px; }
+    .topic { background:var(--pale); border:1px solid #dbeafe; padding:12px; border-radius:10px; font-size:.93rem; }
+    .pdf-tools { display:flex; flex-wrap:wrap; gap:10px; margin:14px 0 18px; }
+    .blue { background:var(--blue); color:white; }
+    .light { background:#f1f5f9; color:#1e293b; border-color:#e2e8f0; }
+    iframe { display:block; width:100%; height:680px; border:1px solid #dbe2ed; border-radius:10px; background:#f8fafc; }
+    footer { padding:22px 20px; text-align:center; color:var(--muted); font-size:.9rem; }
+    @media(max-width:800px) { .layout { grid-template-columns:1fr; } iframe { height:65vh; min-height:460px; } }
+    @media(max-width:480px) { .card { padding:18px; } .topics { grid-template-columns:1fr; } header { padding-top:36px; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <div class="eyebrow">B.Sc. Computer Science · Semester V</div>
+      <h1>Web Development using Python Lab</h1>
+      <p>Practical journal and experiment reference for Python fundamentals, file handling, Django setup, and Django templates.</p>
+      <div class="actions">
+        <a class="btn primary" href="Journal%20-%20Web%20Development%20using%20Python%20Lab%20Sem%20V.pdf" target="_blank" rel="noopener">Open PDF in new tab</a>
+        <a class="btn secondary" href="Journal%20-%20Web%20Development%20using%20Python%20Lab%20Sem%20V.pdf" download>Download journal</a>
+      </div>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div class="layout">
+      <section class="card">
+        <h2>About this journal</h2>
+        <p class="muted">A browser-based companion page for the uploaded practical journal. Use the built-in PDF viewer to read the document without leaving the website.</p>
+        <div class="facts">
+          <div class="fact"><strong>Institution shown in the journal</strong>Yashwantrao Chavan Mahavidyalaya, Islampur</div>
+          <div class="fact"><strong>Department</strong>Department of Computer Science</div>
+          <div class="fact"><strong>Course</strong>Major Practical V (a) — Web Development using Python Lab</div>
+          <div class="fact"><strong>Academic year listed</strong>2026–2027</div>
+          <div class="fact"><strong>Document</strong>24-page PDF journal</div>
+        </div>
+        <h2 style="margin-top:24px">Experiments included</h2>
+        <div class="topics">
+          <div class="topic">01 · Variables, data types and operators</div>
+          <div class="topic">02 · Control statements and loops</div>
+          <div class="topic">03 · Functions and parameters</div>
+          <div class="topic">04 · Lists, tuples, dictionaries and sets</div>
+          <div class="topic">05 · Exception handling</div>
+          <div class="topic">06 · File reading and writing</div>
+          <div class="topic">07 · Virtual environment and Django installation</div>
+          <div class="topic">08 · Creating a Django project</div>
+          <div class="topic">09 · Django app configuration</div>
+          <div class="topic">10–11 · Views, URLs and Django templates</div>
+        </div>
+      </section>
+
+      <section class="card">
+        <h2>Read the PDF</h2>
+        <p class="muted">Scroll through the journal below. If the embedded viewer is not supported by your browser, use “Open PDF in new tab” above.</p>
+        <div class="pdf-tools">
+          <a class="btn blue" href="Journal%20-%20Web%20Development%20using%20Python%20Lab%20Sem%20V.pdf" target="_blank" rel="noopener">Open full PDF</a>
+          <a class="btn light" href="Journal%20-%20Web%20Development%20using%20Python%20Lab%20Sem%20V.pdf" download>Download PDF</a>
+        </div>
+        <iframe title="Web Development using Python Lab PDF viewer" src="Journal%20-%20Web%20Development%20using%20Python%20Lab%20Sem%20V.pdf#view=FitH">
+          Your browser cannot display embedded PDFs. Please use the Open full PDF link.
+        </iframe>
+      </section>
+    </div>
+  </main>
+  <footer>Web Development using Python Lab · Practical Journal</footer>
+</body>
+</html>
